@@ -1,0 +1,4 @@
+button[disabled="disabled"].wooacd-btn{
+    background-color: #ccc !important;
+    cursor: not-allowed;
+}

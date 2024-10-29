@@ -1,0 +1,40 @@
+.wooacd-custom-request-search-form {
+  display: flex;
+  background-color: #ccc;
+  position: relative;
+}
+.wooacd-custom-request-search-form > input#wooacd-product-link {
+  width: calc(100% - 100px);
+  background-color: #F5F5F5;
+  border: 1px solid #d6d6d6;
+  display: block;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 6px 12px;
+  margin: 0;
+  box-shadow: none;
+}
+.wooacd-custom-request-search-form > button {
+  width: 100px;
+  background: #209c1a !important;
+  border-radius: 2px;
+  border: 1px solid #18ab29;
+  display: block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 6px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+  box-shadow: none;
+  box-sizing: border-box;
+  transition: background-color 0.5s;
+}
+.wooacd-custom-request-search-form > button:hover {
+  background: #5cbf2a !important;
+}
+
+.rejected_reason{
+  margin: 20px 0;
+}
+/*# sourceMappingURL=wooacd_custom_request_frontend_styles.css.map */

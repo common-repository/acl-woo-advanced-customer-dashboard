@@ -1,0 +1,35 @@
+.wooacd-table {
+  width: 100%;
+  border: 1px solid #eeeeee;
+  background-color: #fff;
+  display: table;
+
+  & > div {
+    display: table-row;
+
+
+    &:nth-child(odd) {
+      background-color: rgba(145, 145, 145, 0.10);
+    }
+
+    &.wooacd-table-head {
+      background-color: rgba(76, 138, 0, 0.30);
+      font-weight: bold;
+      color: #283e0d;
+    }
+
+    &.wooacd-table-row-success {
+      background: #f0fdf0;
+    }
+    &.wooacd-table-row-danger {
+      background: #fdf2f2;
+    }
+
+    & > div {
+      display: table-cell;
+      padding: 8px;
+      border-left: 1px solid #eeeeee;
+      border-top: 1px solid #eeeeee;
+    }
+  }
+}

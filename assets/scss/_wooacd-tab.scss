@@ -1,0 +1,30 @@
+.wooacd-my-custom-cart {
+
+  & > div.wooacd-my-custom-cart-header {
+
+    a {
+      display: inline-block;
+      padding: 8px 10px;
+      border: 1px solid #CCCCCC;
+      margin-right: 5px;
+      border-radius: 5px 5px 0 0;
+      border-bottom: none;
+      text-decoration: none;
+      margin-bottom: -1px;
+      background-color: #fff;
+
+      &.wooacd-tab-inactive {
+        border-color: transparent;
+        background: transparent;
+      }
+    }
+  }
+
+  & > .wooacd-my-custom-cart-content {
+    border: 1px solid #CCCCCC;
+
+    & > div {
+      padding: 10px;
+    }
+  }
+}

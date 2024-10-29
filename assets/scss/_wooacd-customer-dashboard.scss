@@ -1,0 +1,41 @@
+.wooacd-customer-dashboard-container {
+  p, a {
+    color: inherit;
+  }
+
+  .wooacd-text-small {
+    font-size: 80%;
+  }
+
+  nav {
+    ul {
+      margin: 0;
+      padding: 0;
+
+      li {
+        list-style: none;
+        display: block;
+        border-bottom: 1px solid #ffffff;
+
+        &:last-child {
+          border-bottom: none;
+        }
+
+        a {
+          display: block;
+          padding: 8px 15px;
+          background-color: #f5f5f5;
+          text-decoration: none;
+          color: inherit;
+
+          &:hover {
+            background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+            background-color: #f6f6f6;
+          }
+        }
+
+      }
+    }
+  }
+}
+

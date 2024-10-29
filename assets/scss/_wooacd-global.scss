@@ -1,0 +1,53 @@
+.wooacd-container {
+  max-width: 990px;
+
+  a {
+    text-decoration: none;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.wooacd-container ::-webkit-scrollbar {
+  width: 5px;
+  background: #CCCCCC;
+}
+
+.wooacd-container ::-webkit-scrollbar-thumb {
+  background: #fecb03;
+}
+
+.wooacd-btn {
+  padding: 5px 10px;
+  background-color: #999999;
+  color: #ffffff;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.wooacd-btn-danger {
+  background-color: #ff3907;
+  color: #ffffff;
+  &:hover {
+    background-color: #bb2d06;
+  }
+}
+.wooacd-btn-danger {
+  background-color: #ff3907;
+  color: #ffffff;
+  &:hover {
+    background-color: #bb2d06;
+  }
+}
+.wooacd-btn-success {
+  background-color: #25b21c;
+  color: #ffffff;
+  &:hover {
+    background-color: #207e19;
+  }
+}

@@ -1,0 +1,146 @@
+.wooacd-messages-container {
+  width: 100%;
+  //background-color: #fff;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+
+  & > .wooacd-message-listing {
+    max-height: 600px;
+    overflow: auto;
+
+    div.wooacd-message-item {
+      //background-color: #f5f5f5;
+      margin: 5px 0;
+      width: 100%;
+      clear: both;
+      position: relative;
+      display: flex;
+      box-sizing: border-box;
+      border-radius: 30px;
+      padding: 3px;
+
+      & > div.wooacd-message-content {
+        position: relative;
+        padding: 6px 25px;
+        border-radius: 30px;
+        min-width: 60%;
+        margin: 0 15px;
+      }
+
+      &.wooacd-customer-message-item {
+        & > div.wooacd-message-content {
+          background-color: rgba(23, 255, 131, 0.25);
+        }
+      }
+
+      &.wooacd-admin-message-item {
+        flex-direction: row-reverse;
+
+        & > div.wooacd-message-content {
+          background-color: rgba(30, 89, 193, 0.25);
+          text-align: right;
+        }
+      }
+
+      h4, p {
+        margin: 0;
+        padding: 0;
+      }
+
+      h4 {
+        font-size: 14px;
+      }
+
+      p {
+        font-size: 12px;
+      }
+
+      .wooacd-user-avater {
+        width: 40px;
+        height: 40px;
+        background-color: #fff;
+        border-radius: 100%;
+        overflow: hidden;
+        flex: 0 0 40px;
+      }
+    }
+  }
+
+
+  .wooacd-message-editor {
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    background-color: #ffffff;
+
+    form {
+      display: flex;
+
+      textarea {
+        width: calc(100% - 100px);
+        min-height: 40px;
+        border-radius: 50px 0 0 50px;
+        box-sizing: border-box;
+        padding: 5px 30px;
+        background-color: #f5f5f5;
+        outline: none;
+        box-shadow: none;
+        //border: 1px solid #CCCCCC;
+      }
+
+      button {
+        width: 100px;
+        border: none;
+        color: #ffffff;
+        cursor: pointer;
+        box-shadow: inset 0px 0px 15px 3px #23395e;
+        background: linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+        background-color: #2e466e;
+        border-radius: 0 50px 50px 0;
+        font-size: 18px;
+
+        &:hover {
+          background: linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+          background-color: #415989;
+        }
+      }
+    }
+  }
+}
+
+.wooacd-users-others-message {
+  max-height: 690px;
+  overflow: auto;
+  border: 1px solid #e0e0e0;
+
+  & > a {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #eee2ec;
+    cursor: pointer;
+    h4, p {
+      margin: 0;
+      padding: 0;
+    }
+
+    &:nth-child(odd) {
+      background-color: #fff;
+    }
+
+    &.wooacd-current-messages, &:hover {
+      background-color: rgb(232, 255, 243);
+    }
+  }
+
+  div.wooacd-current-messages {
+
+
+
+
+
+  }
+
+}

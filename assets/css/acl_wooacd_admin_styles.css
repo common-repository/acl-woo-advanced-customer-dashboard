@@ -1,0 +1,439 @@
+@charset "UTF-8";
+.wooacd-container {
+  max-width: 990px;
+}
+.wooacd-container a {
+  text-decoration: none;
+}
+.wooacd-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wooacd-container ::-webkit-scrollbar {
+  width: 5px;
+  background: #CCCCCC;
+}
+
+.wooacd-container ::-webkit-scrollbar-thumb {
+  background: #fecb03;
+}
+
+.wooacd-btn {
+  padding: 5px 10px;
+  background-color: #999999;
+  color: #ffffff;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.wooacd-btn-danger {
+  background-color: #ff3907;
+  color: #ffffff;
+}
+.wooacd-btn-danger:hover {
+  background-color: #bb2d06;
+}
+
+.wooacd-btn-danger {
+  background-color: #ff3907;
+  color: #ffffff;
+}
+.wooacd-btn-danger:hover {
+  background-color: #bb2d06;
+}
+
+.wooacd-btn-success {
+  background-color: #25b21c;
+  color: #ffffff;
+}
+.wooacd-btn-success:hover {
+  background-color: #207e19;
+}
+
+.wooacd-table {
+  width: 100%;
+  border: 1px solid #eeeeee;
+  background-color: #fff;
+  display: table;
+}
+.wooacd-table > div {
+  display: table-row;
+}
+.wooacd-table > div:nth-child(odd) {
+  background-color: rgba(145, 145, 145, 0.1);
+}
+.wooacd-table > div.wooacd-table-head {
+  background-color: rgba(76, 138, 0, 0.3);
+  font-weight: bold;
+  color: #283e0d;
+}
+.wooacd-table > div.wooacd-table-row-success {
+  background: #f0fdf0;
+}
+.wooacd-table > div.wooacd-table-row-danger {
+  background: #fdf2f2;
+}
+.wooacd-table > div > div {
+  display: table-cell;
+  padding: 8px;
+  border-left: 1px solid #eeeeee;
+  border-top: 1px solid #eeeeee;
+}
+
+.wooacd-btn {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  border: 1px solid transparent;
+  margin: 5px;
+  cursor: pointer;
+}
+.wooacd-btn.wooacd-btn-sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+  margin: 3px;
+}
+
+.wooacd-btn-success {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+.wooacd-btn-success:hover {
+  color: #fff;
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.wooacd-btn-danger {
+  color: #fff;
+  background-color: #c13800;
+  border-color: #c13800;
+}
+.wooacd-btn-danger:hover {
+  color: #fff;
+  background-color: #c12006;
+  border-color: #c11b00;
+}
+
+.wooacd-accordion > div {
+  margin-bottom: 5px;
+}
+.wooacd-accordion > div.wooacd-accordion-item-active .wooacd-accordion-title {
+  background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+  background-color: #dfdfdf;
+}
+.wooacd-accordion > div.wooacd-accordion-item-active .wooacd-accordion-title:after {
+  content: "−";
+}
+.wooacd-accordion > div.wooacd-accordion-item-active .wooacd-accordion-content {
+  display: block;
+}
+.wooacd-accordion > div .wooacd-accordion-title {
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background: linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+  background-color: #ededed;
+  padding: 10px;
+  color: #777777;
+  cursor: pointer;
+  font-size: 16px;
+  text-shadow: 0px 1px 0px #ffffff;
+  border: 1px solid #dcdcdc;
+  position: relative;
+}
+.wooacd-accordion > div .wooacd-accordion-title:hover {
+  background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+  background-color: #dfdfdf;
+}
+.wooacd-accordion > div .wooacd-accordion-title:after {
+  content: "+";
+  position: absolute;
+  right: 20px;
+}
+.wooacd-accordion > div .wooacd-accordion-content {
+  display: none;
+}
+
+.wooacd-messages-container {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+}
+.wooacd-messages-container > .wooacd-message-listing {
+  max-height: 600px;
+  overflow: auto;
+}
+.wooacd-messages-container > .wooacd-message-listing div.wooacd-message-item {
+  margin: 5px 0;
+  width: 100%;
+  clear: both;
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  border-radius: 30px;
+  padding: 3px;
+}
+.wooacd-messages-container > .wooacd-message-listing div.wooacd-message-item > div.wooacd-message-content {
+  position: relative;
+  padding: 6px 25px;
+  border-radius: 30px;
+  min-width: 60%;
+  margin: 0 15px;
+}
+.wooacd-messages-container > .wooacd-message-listing div.wooacd-message-item.wooacd-customer-message-item > div.wooacd-message-content {
+  background-color: rgba(23, 255, 131, 0.25);
+}
+.wooacd-messages-container > .wooacd-message-listing div.wooacd-message-item.wooacd-admin-message-item {
+  flex-direction: row-reverse;
+}
+.wooacd-messages-container > .wooacd-message-listing div.wooacd-message-item.wooacd-admin-message-item > div.wooacd-message-content {
+  background-color: rgba(30, 89, 193, 0.25);
+  text-align: right;
+}
+.wooacd-messages-container > .wooacd-message-listing div.wooacd-message-item h4, .wooacd-messages-container > .wooacd-message-listing div.wooacd-message-item p {
+  margin: 0;
+  padding: 0;
+}
+.wooacd-messages-container > .wooacd-message-listing div.wooacd-message-item h4 {
+  font-size: 14px;
+}
+.wooacd-messages-container > .wooacd-message-listing div.wooacd-message-item p {
+  font-size: 12px;
+}
+.wooacd-messages-container > .wooacd-message-listing div.wooacd-message-item .wooacd-user-avater {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 100%;
+  overflow: hidden;
+  flex: 0 0 40px;
+}
+.wooacd-messages-container .wooacd-message-editor {
+  display: block;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: -10px;
+  background-color: #ffffff;
+}
+.wooacd-messages-container .wooacd-message-editor form {
+  display: flex;
+}
+.wooacd-messages-container .wooacd-message-editor form textarea {
+  width: calc(100% - 100px);
+  min-height: 40px;
+  border-radius: 50px 0 0 50px;
+  box-sizing: border-box;
+  padding: 5px 30px;
+  background-color: #f5f5f5;
+  outline: none;
+  box-shadow: none;
+}
+.wooacd-messages-container .wooacd-message-editor form button {
+  width: 100px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: inset 0px 0px 15px 3px #23395e;
+  background: linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+  background-color: #2e466e;
+  border-radius: 0 50px 50px 0;
+  font-size: 18px;
+}
+.wooacd-messages-container .wooacd-message-editor form button:hover {
+  background: linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+  background-color: #415989;
+}
+
+.wooacd-users-others-message {
+  max-height: 690px;
+  overflow: auto;
+  border: 1px solid #e0e0e0;
+}
+.wooacd-users-others-message > a {
+  display: block;
+  padding: 10px;
+  border-bottom: 1px solid #eee2ec;
+  cursor: pointer;
+}
+.wooacd-users-others-message > a h4, .wooacd-users-others-message > a p {
+  margin: 0;
+  padding: 0;
+}
+.wooacd-users-others-message > a:nth-child(odd) {
+  background-color: #fff;
+}
+.wooacd-users-others-message > a.wooacd-current-messages, .wooacd-users-others-message > a:hover {
+  background-color: #e8fff3;
+}
+.wooacd-container .wooacd-row {
+  display: flex;
+  margin-right: -15px;
+  margin-left: -15px;
+  flex-wrap: wrap;
+}
+
+.wooacd-row > div {
+  flex-basis: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.wooacd-col-md-1 {
+  -ms-flex: 0 0 8.333333%;
+  flex: 0 0 8.333333%;
+  max-width: 8.333333%;
+}
+
+.wooacd-col-md-2 {
+  -ms-flex: 0 0 16.666667%;
+  flex: 0 0 16.666667%;
+  max-width: 16.666667%;
+}
+
+.wooacd-col-md-2-ex {
+  -ms-flex: 0 0 20%;
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+
+.wooacd-col-md-3 {
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.wooacd-col-md-4 {
+  -ms-flex: 0 0 33.333333%;
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+
+.wooacd-col-md-5 {
+  -ms-flex: 0 0 41.666667%;
+  flex: 0 0 41.666667%;
+  max-width: 41.666667%;
+}
+
+.wooacd-col-md-6 {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.wooacd-col-md-7 {
+  -ms-flex: 0 0 58.333333%;
+  flex: 0 0 58.333333%;
+  max-width: 58.333333%;
+}
+
+.wooacd-col-md-8 {
+  -ms-flex: 0 0 66.666667%;
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%;
+}
+
+.wooacd-col-md-9 {
+  -ms-flex: 0 0 75%;
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+
+.wooacd-col-md-10 {
+  -ms-flex: 0 0 83.333333%;
+  flex: 0 0 83.333333%;
+  max-width: 83.333333%;
+}
+
+.wooacd-col-md-11 {
+  -ms-flex: 0 0 91.666667%;
+  flex: 0 0 91.666667%;
+  max-width: 91.666667%;
+}
+
+.wooacd-col-md-12 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.dashbord-box {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid rgba(77, 91, 108, 0.16);
+  margin-bottom: 30px;
+  transition: 0.8s;
+  border-radius: 4px;
+}
+.dashbord-box .dashbord-box-header {
+  border-bottom: 1px solid rgba(77, 91, 108, 0.16);
+  margin-top: -20px;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+.dashbord-box .dashbord-box-header h3 {
+  padding: 15px 20px;
+  margin: 0;
+  font-size: 22px;
+}
+.dashbord-box .dashbord-box-body {
+  background-size: contain !important;
+}
+.dashbord-box .dashbord-box-body p {
+  font-size: 90px;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  background: -webkit-linear-gradient(#baaaff, #6f54e3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.dashbord-box:hover {
+  box-shadow: 0px 5px 7px 0px rgba(77, 91, 108, 0.18);
+}
+.dashbord-box.total-request .dashbord-box-body {
+  background: #fff url(../images/total.png) no-repeat center left;
+}
+.dashbord-box.process-request .dashbord-box-body {
+  background: #fff url(../images/process.png) no-repeat center left;
+}
+.dashbord-box.approve-request .dashbord-box-body {
+  background: #fff url(../images/approve.png) no-repeat center left;
+}
+.dashbord-box.cancel-request .dashbord-box-body {
+  background: #fff url(../images/cancel.png) no-repeat center left;
+}
+
+.wooacd-pagination {
+  padding: 20px;
+  text-align: center;
+}
+.wooacd-pagination span {
+  cursor: pointer;
+  padding: 6px;
+  border: 1px solid #ccc;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  line-height: 25px;
+  background-color: #fff;
+  border-radius: 4px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=acl_wooacd_admin_styles.css.map */

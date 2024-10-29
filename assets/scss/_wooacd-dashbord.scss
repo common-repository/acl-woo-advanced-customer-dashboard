@@ -1,0 +1,59 @@
+.dashbord-box{
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid rgba(77,91,108,0.16);
+    margin-bottom: 30px;
+    transition: 0.8s;
+    border-radius: 4px;
+
+    .dashbord-box-header{
+        border-bottom: 1px solid rgba(77,91,108,0.16);
+        margin-top: -20px;
+        margin-left: -20px;
+        margin-right: -20px;
+        h3{
+            padding: 15px 20px;
+            margin: 0;
+            font-size: 22px;
+        }
+    }
+
+    .dashbord-box-body{
+        background-size: contain !important;
+        p{
+            font-size: 90px;
+            margin: 0;
+            padding: 0;
+            text-align: right;
+            background: -webkit-linear-gradient(#baaaff, #6f54e3);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            
+        }
+
+    }
+    &:hover{
+        box-shadow: 0px 5px 7px 0px rgba(77,91,108,0.18);
+    }
+    &.total-request{
+        .dashbord-box-body{
+            background: #fff url(../images/total.png) no-repeat center left;
+        }
+       
+    }
+    &.process-request{
+        .dashbord-box-body{
+            background: #fff url(../images/process.png) no-repeat center left;
+        }
+    }
+    &.approve-request{
+        .dashbord-box-body{
+            background: #fff url(../images/approve.png) no-repeat center left;
+        }
+    }
+    &.cancel-request{
+        .dashbord-box-body{
+            background: #fff url(../images/cancel.png) no-repeat center left;
+        }
+    }
+}
